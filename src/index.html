@@ -12,18 +12,33 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body class="bg-success">
+    <nav class="navbar my-3">
+      <div class="container-fluid justify-content-center">
+        <button id="btn" type="button" class="btn btn-primary">New Card</button>
       </div>
+    </nav>
+    <div class=" my-4 row justify-content-center align-items-center bg-success">
+      <div
+        class="card col-auto p-0"
+        style="min-width: 20rem; min-height: 25rem;"
+      >
+        <!--card-header-->
+        <div id="suit-header" class="card-header bg-transparent border-0"></div>
+        <!--card-body-->
+        <div class="card-body row justify-content-center align-items-center">
+          <h1 id="card-body" class="card-title text-center"></h1>
+        </div>
+        <!--card-footer-->
+        <div
+          id="suit-footer"
+          class="card-footer bg-transparent border-0 text-end"
+        ></div>
+      </div>
+    </div>
+    <div class="fixed-bottom p-4 text-center">
+      Made with ❤️ by
+      <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
     </div>
   </body>
 </html>
