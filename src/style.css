@@ -1,4 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-image: url(/src/assets/img/background.jpg);
+}
 .card {
   border-radius: 2rem;
 }
@@ -12,4 +15,7 @@
 .card-title {
   font-size: 8rem;
   font-family: "Times New Roman", Times, serif;
+}
+a {
+  color: whitesmoke;
 }
